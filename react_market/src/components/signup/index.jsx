@@ -25,6 +25,7 @@ class signup extends Component {
                                                 className="form-control" className="" id="name" aria-describedby="helpId" placeholder="example@gmail.com" />
 
                                         </div>
+                                        
                                         <div className="form-group">
                                             <label >Tài khoản Gmail :</label>
                                             <input type="email"
