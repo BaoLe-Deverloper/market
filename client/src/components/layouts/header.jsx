@@ -1,6 +1,6 @@
 import React , {Component} from 'react';
-import Login from './../login';
-import Signup from './../signup';
+import Login from '../login';
+import Signup from '../signup';
 export default class header extends Component{
     render(){
         return(

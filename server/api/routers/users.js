@@ -1,30 +1,18 @@
 const express = require("express");
 const mongoose = require('mongoose');
 const router = express.Router();
-const User = require("./../models/user");
+const User = require("../models/user");
+import userController from  './../controllers/userController';
+
+
+
 const bcrypt = require('bcrypt');
 const saltRounds = 10;
 const secret = 'iewjrU*&sds|\\?wijwdie93';
 
 
 
-router.get('/:id', (req, res, next)=>{
-    const id = req.params.id;
-    User.findById(id).exec().then(doc=>{
-        if(doc){
-            res.status(200).json( doc)
-        }
-        else{
-            res.status(404).json({
-                message:"No valid entru found for id "+id+ " ! "
-             })
-        }
-        
-    }).catch(err=>{
-        res.status(500).json({
-            err
-        })
-    });
+router.get('/:id', 
     
 })
 

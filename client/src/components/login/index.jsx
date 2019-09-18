@@ -4,9 +4,6 @@ import React, { Component } from 'react';
 import './style.css';
 
 class login extends Component {
-    constructor(props){
-        super(props)
-    }
     responseFacebook = (response) => {
         console.log(response);
     };
@@ -22,7 +19,7 @@ class login extends Component {
         return (
             <div id="Modallogin" className="modal fade" role="dialog" tabIndex={-1} aria-hidden="true">  
                 <div className="modal-dialog">
-                    {/* Modal content*/}
+                 
                     <div className="modal-content">
                         <div className="modal-header">
                             <button type="button" className="close" data-dismiss="modal">×</button>
