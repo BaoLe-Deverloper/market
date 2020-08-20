@@ -9,7 +9,7 @@
   "author": "baole_developer",
   "license": "ISC",
   "dependencies": {
-    "bcrypt": "^3.0.6",
+    "bcrypt": "^5.0.0",
     "nodemon": "^1.19.2"
   },
   "devDependencies": {
